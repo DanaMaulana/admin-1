@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="header">
+    <div class="logo">
+      <h2>Survey Web</h2>
+      <span class="toggle" onclick="toggleMenu();"><i class="fas fa-bars"></i></span>
+    </div>
+    <div class="user">
+      <span class="id-user">
+        <h3>PHML0513795</h3>
+      </span>
+    </div>
+  </div>
+  
+  <div class="container">
+    <div class="navigation">
+      <div class="menu">
+        <div class="menuItem">
+          <a href="#">
+            <i class="fa-solid fa-house"></i>
+            <span>Home</span>
+          </a>
+        </div>
+        <div class="menuItem">
+          <a href="#" class="sub-btn" onclick="menuAccordion();">
+            <i class="fa-solid fa-circle-info"></i>
+            <span>About</span>
+            <i class="fa-solid fa-angle-down dropdown"></i>
+          </a>
+          <div class="subMenu">
+            <a href="#">Geomatics</a>
+            <a href="#">Geophysics</a>
+            <a href="#">Geotechnics</a>
+            <a href="#">Geohazard</a>
+          </div>
+        </div>
+        <div class="menuItem">
+          <a href="#">
+            <i class="fa-solid fa-address-book"></i>
+            <span>Contact Us</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="download">
+        <div class="card">
+          <div>
+            <div class="numbers">Drawing</div>
+          </div>
+          <div class="iconBox">
+            <img src="image/Map - Drawing.png" alt="Drawing">
+          </div>
+        </div>
+        <div class="card">
+          <div>
+            <div class="numbers">Tide Prediction</div>
+          </div>
+          <div class="iconBox">
+            <img src="image/Tide Prediction.jpg" alt="Tide">
+          </div>
+        </div>
+        <div class="card">
+          <div>
+            <div class="numbers">Weather</div>
+          </div>
+          <div class="iconBox">
+            <img src="image/Metrocean Forecast Service.png" alt="Metrocean">
+          </div>
+        </div>
+      </div>
+
+      <div class="details">
+        <div class="webApp">
+          <div class="card">
+            <div>
+              <div class="numbers">Mahakam Web</div>
+              <div class="cardName">GIS</div>
+            </div>
+            <div class="iconBox">
+              <i class="fa-solid fa-globe"></i>
+            </div>
+          </div>
+          <div class="card">
+            <div>
+              <div class="numbers">AVTS</div>
+              <div class="cardName">Comments</div>
+            </div>
+            <div class="iconBox">
+              <i class="fa-solid fa-ship"></i>
+            </div>
+          </div>
+          <div class="card">
+            <div>
+              <div class="numbers">E-Survey</div>
+              <div class="cardName">Databases</div>
+            </div>
+            <div class="iconBox">
+              <i class="fa-solid fa-database"></i>
+            </div>
+          </div>
+          <div class="card">
+            <div>
+              <div class="numbers">Survey Data &</div>
+              <div class="cardName">Map Request</div>
+            </div>
+            <div class="iconBox">
+              <i class="fa-solid fa-map-location-dot"></i>
+            </div>
+          </div>
+        </div>
+        <div class="weather">
+          <div class="cardHeader">
+            <h4>Weather Today</h4>
+          </div>
+          <div class="siteBar">
+            <div class="site">BKP</div>
+            <div class="site">SNP</div>
+            <div class="site">NPU</div>
+            <div class="site">CPA</div>
+            <div class="site">CPU</div>
+            <div class="site">HDL</div>
+            <div class="site">SPU</div>
+            <div class="site">TRF</div>
+          </div>
+          <div class="cardWeather">
+            <div class="dateTime">
+              <h6>11/02/2022</h6>
+              <h2>Bekapai</h2>
+            </div>
+            <div class="bodyFeatureWeater">
+              <div class="featureWeater temperature">
+                <h6 class="titleSuhu">Temperatur</h6>
+                <div class="suhu suhuSatu">
+                  <i class="fa-solid fa-cloud-sun"></i>
+                  30C
+                </div>
+                <div class="suhu suhuDua">
+                  <i class="fa-solid fa-temperature-high"></i>
+                  28C
+                </div>
+              </div>
+              <div class="featureWeater time">
+                <i class="fa-solid fa-clock fa-2xl"></i>
+                13.20 WIT
+              </div>
+              <div class="featureWeater wind">
+                <h6 class="titleAngin">Wind</h6>
+                <div class="angin anginSatu">
+                  <i class="fa-solid fa-wind"></i>
+                  1,4
+                </div>
+                <div class="angin anginDua">
+                  <i class="fa-solid fa-snowflake"></i>
+                  108C
+                </div>
+              </div>
+              <div class="featureWeater cloud">
+                <h6 class="titleCloud">Cloud & Rain</h6>
+                <div class="bodyCloud">
+                  <i class="fa-solid fa-cloud fa-2xl"></i>
+                  <span>
+                    <h4>1005Ft</h4>
+                    <p>Cloud Raise</p>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/all.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
